@@ -1,0 +1,15 @@
+500 x 500 results:
+eigen mult 0.958868 sec
+eigen add 0.0041149 sec
+matlib mult 0.75317 sec
+matlib add 0.00156818 sec
+
+
+50 x 50 results:
+eigen mult 0.00109048 sec
+eigen add 6.8959e-05 sec
+matlib mult 0.000803484 sec
+matlib add 3.2758e-05 sec
+
+we gat that the library is faster than the eigen library.
+we can see that multiplying takes more time than adding as we expected.
